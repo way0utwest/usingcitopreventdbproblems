@@ -51,5 +51,17 @@ GO
 SET IDENTITY_INSERT dbo.Articles OFF
 GO
 
+CREATE FUNCTION dbo.clrLoadFileMetadata
+ (
+  @fileid INT
+ )
+ RETURNS VARCHAR(1000)
+ AS
+ BEGIN
+   RETURN REPLICATE('a', 50)
+ END
+ GO
+IF @@ERROR <> 0 SET NOEXEC ON
+GO
 
  

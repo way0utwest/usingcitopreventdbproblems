@@ -16,4 +16,11 @@ DROP PROCEDURE dbo.SearchArticles
 GO
 DROP PROC [SQLCop].[test Procedures using dynamic SQL without sp_executesql]
 GO
+DROP PROCEDURE [tMetaDataChecks].[test dbo.Files should not be altered without discussion]
+GO
+DROP SCHEMA tMetaDataChecks
+GO
+DROP TABLE dbo.Files
+GO
+
 
