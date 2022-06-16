@@ -203,6 +203,8 @@ GO
 select dbo.UF_CalcBonusForArticles(51) AS Bonus
 GO
 
+-- commit to CI
+
 -- run this in integration
 -- select dbo.UF_CalcBonusForArticles(51)
 -- isn't correct
